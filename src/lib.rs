@@ -1,4 +1,4 @@
-mod client;
+mod state;
 
 #[test]
 fn it_works() {

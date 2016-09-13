@@ -1,5 +1,13 @@
 [package]
 
-name = "rust_raft"
+name = "ironsides"
 version = "0.0.1"
 authors = ["Michael Wilson <wilsoniya@gmail.com>"]
+
+[lib]
+name = "ironsides"
+path = "src/lib.rs"
+
+[[bin]]
+name = "tester"
+path = "src/test.rs"
